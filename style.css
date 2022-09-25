@@ -1,0 +1,48 @@
+.tituloprincipal{
+    padding-left: 30px;/* correrlo a la derecha */
+}
+#banner{
+    width: 100%;
+    /* height: 500px; */
+   /*  margin:10px auto;   /* centrar imagen */
+ /*    display:block; */  /* centrar */
+
+}
+.principal{
+    background-color:  #CCCCCC;
+    padding: 20px; /* le agrega espacio al rectangulo gris */
+}
+.titulo-centralizado{
+    text-align: center;
+
+}
+p{ /* sekectir */
+    text-align: center; /* para todas las etiquetas "P" alinear al centro */
+    /*background: #CCCCCC;  pinta cada parrafo */ 
+
+}
+em strong{  /* no referimos especificamente a esa etiqueta */
+    color: red;
+}
+
+.diferenciales{
+    background-color: white;
+    padding: 20px;
+}
+
+.items{/* referenciando una clase */
+    font-style: italic;
+}
+
+ul{
+  display: inline-block;  /* ocupar solo su espacio de contenido */
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+/* la clase permite diferenicar ese estilo */
+.imagenDiferenciales{
+    width: 50%;
+
+}

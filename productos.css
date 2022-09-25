@@ -1,0 +1,137 @@
+header{
+    background-color: #BBBBBB;/* fonda header */
+    padding: 20px 0;/* espaciamientos */
+}
+.caja{
+    width: 100%;
+    position: relative;
+    margin: 0 auto ;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 40px;
+}
+
+nav li{
+    display: inline;/* mostrar en una sola linea */
+    margin: 0 0 0 15px ;/* espaciamiento lateral entre items de la lista */
+}
+
+nav a{
+    text-transform: uppercase; /* mayus */
+    color: #000000;
+    font-weight: bold; /* colocar en negrita */
+    font-size: 22px; /* tamaño */
+    text-decoration: none;/* quitar el subrayado */
+}
+nav a:hover{color: #c78c19;
+             text-decoration: underline;}          /* capturar el movimiento */
+
+
+
+.productos{
+    width: 940px; /* queremos que ocupe ese tamaño */
+    margin: 0 auto;/* espacios laterales automaticos */
+    padding: 50px;
+}
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.productos li:hover{
+    border-color: #c78c19;
+}
+.productos li:active{
+    border-color: green; /* volver verde el recuadro con un clic */
+
+}
+.productos li:hover h2{
+    font-size: 33px; /* aumentar el tamaño cuando nos posisionamos en el elemento */
+
+}
+
+.productos h2{
+    font-size: 30px; /* caracteristicas del texto */
+    font-weight: bold;
+    text-align: center;
+}
+.produto-descripcion{
+ font-size: 18px;
+}
+.producto-precio{
+font-size: 20px;
+font-weight: bold;
+margin-top: 10px;
+}
+
+/* CSS para el HOME */
+.banner{
+    width: 100%;
+}
+.principal{
+    position: relative;
+    left: 25%;
+    width: 50%;
+    text-align: justify;
+    margin: 0 0 1em;
+}
+.titulo-principal{
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 0 1em;
+}
+.principal p{
+    margin: 0 0 1em;
+}
+.principal strong{
+    font-weight: bold;
+}
+.principal em{
+    font-style: italic;
+}
+.diferenciales{
+    text-align: center;
+}
+.diferenciales li{
+    position: relative;
+    left: 27%;
+    text-align: left;
+    list-style-type: disc;
+    margin: 0 0 1em; 
+}
+.contenido-diferenciales{
+    width: 750px;
+    margin: 0 auto;
+    
+}
+.imagenDiferenciales{
+    width: 40%;    
+    border-radius: 20px
+}
+.lista-diferenciales{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 60px;
+
+}
+.contenido-diferenciales img:hover{color: #c78c19;
+    opacity: 0.8;
+}
+footer{
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    padding: 5%;
+}
+
+
